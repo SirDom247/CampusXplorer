@@ -1,0 +1,277 @@
+[
+    {
+      "state": "Abia",
+      "institutions": [
+        {"name": "Michael Okpara University of Agriculture at Umudike", "ownership": "Federal"},
+        {"name": "Abia State University in Uturu", "ownership": "State"},
+        {"name": "College of Health Sciences Aba", "ownership": "N/A"},
+        {"name": "Abia State polytechnic", "ownership": "State"},
+        {"name": "Covenant Polytechnic, Aba", "ownership": "Private"},
+        {"name": "Temple Gate Polytechnic, Abayi", "ownership": "Private"},
+        {"name": "Valley View Polytechnic, Aba", "ownership": "Private"},
+        {"name": "Gregory University Uturu", "ownership": "Private"},
+        {"name": "Rhema University", "ownership": "Private"},
+        {"name": "", "ownership": "N/A"}
+      ]
+    },
+    {
+      "state": "Adamawa",
+      "institutions": [
+        {"name": "Adamawa State polytechnic, Yola", "ownership": "State"},
+        {"name": "Adamawa State University, Mubi", "ownership": "State"}
+      ]
+    },
+    {
+      "state": "Anambra",
+      "institutions": [
+        {"name": "Anambra State University, Anambra", "ownership": "State"},
+        {"name": "Nnamdi Azikiwe University", "ownership": "Federal"},
+        {"name": "the Federal Polytechnic, Oko", "ownership": "Federal"},
+        {"name": "Nwafor Orizu University of Education", "ownership": "State"},
+        {"name": "The Tansian University, Umunya", "ownership": "Private"},
+        {"name": "Madonna University, Okija", "ownership": "Private"},
+        {"name": "St Paul's University, Awka", "ownership": "Private"}
+      ]
+    },
+    {
+      "state": "Akwa Ibom",
+      "institutions": [
+        {"name": "University of Uyo", "ownership": "Federal"},
+        {"name": "Maritime Academy of Nigeria, Oron", "ownership": "Federal"},
+        {"name": "Akwa Ibom State University [Oruk Anam LGA And Mkpat Enin LGA]", "ownership": "State"},
+        {"name": "Obong University, Obong Ntak Inyang", "ownership": "Private"},
+        {"name": "Akwa Ibom State Polytechnic", "ownership": "State"},
+        {"name": "Uyo City Polytechnic", "ownership": "Private"},
+        {"name": "Apex Polytechnic", "ownership": "Private"},
+        {"name": "Heritage Polytechnic, Eket", "ownership": "Private"},
+        {"name": "School of Nursing Uyo, Eket, Oron, Ikot Ekpene, Etinan", "ownership": "N/A"},
+        {"name": "Akwa Ibom State College of Education, Afaha Nsit", "ownership": "State"},
+        {"name": "School Of Basic Studies", "ownership": "N/A"},
+        {"name": "College of Arts & Sciences, Nnung Ukim", "ownership": "N/A"},
+        {"name": "Ritman University", "ownership": "Private"},
+        {"name": "Sure Polytechnic, Ukanafun", "ownership": "Private"}
+      ]
+    },
+    {
+      "state": "Bauchi",
+      "institutions": [
+        {"name": "Abubakar Tafawa Balewa University", "ownership": "Federal"},
+        {"name": "Federal Polytechnic, Bauchi", "ownership": "Federal"},
+        {"name": "FGGC Bauchi", "ownership": "Federal"},
+        {"name": "Lys Children School", "ownership": "N/A"},
+        {"name": "College of Education - Azare", "ownership": "State"},
+        {"name": "National Open University Bauchi", "ownership": "Federal"}
+      ]
+    },
+    {
+      "state": "Bayelsa",
+      "institutions": [
+        {"name": "Bayelsa State College of Health Technology", "ownership": "State"},
+        {"name": "Federal Polytechnic, Ekowe", "ownership": "Federal"},
+        {"name": "Federal University, Otueke", "ownership": "Federal"},
+        {"name": "Institute of Science and Technology Yenagoa", "ownership": "N/A"},
+        {"name": "Niger Delta University", "ownership": "State"},
+        {"name": "Federal Science and Technical College", "ownership": "Federal"}
+      ]
+    },
+    {
+      "state": "Benue",
+      "institutions": [
+        {"name": "Federal University of Agriculture, Makurdi", "ownership": "Federal"},
+        {"name": "Benue State University, Makurdi", "ownership": "State"},
+        {"name": "University of Mkar, Mkar, Gboko.", "ownership": "Private"},
+        {"name": "Benue State Polytechnic, Ugbokolo", "ownership": "State"},
+        {"name": "Fidei polytechnic, Gboko", "ownership": "Private"},
+        {"name": "Akperan Orshi college of Agriculture Yandev", "ownership": "Private"},
+        {"name": "Federal College of Education Agasha", "ownership": "Federal"},
+        {"name": "College of Education Oju", "ownership": "State"},
+        {"name": "College of Education Kastina Ala", "ownership": "State"}
+      ]
+    },
+    {
+      "state": "Borno",
+      "institutions": [
+        {"name": "College of Education Waka-Biu", "ownership": "State"},
+        {"name": "Federal Training Centre, Maiduguri", "ownership": "Federal"},
+        {"name": "Federal University of Maiduguri", "ownership": "Federal"},
+        {"name": "MAI University Of Maiduguri, Maiduguri", "ownership": "Private"},
+        {"name": "National Open University of Nigeria", "ownership": "Federal"},
+        {"name": "Ramat Polytechnic Maiduguri", "ownership": "Federal"},
+        {"name": "School of Health and Technology, Maiduguri", "ownership": "N/A"},
+        {"name": "School Of Nursing and Midwifery", "ownership": "N/A"}
+      ]
+    },
+    {
+      "state": "Cross River",
+      "institutions": [
+        {"name": "University of Calabar", "ownership": "Federal"},
+        {"name": "Cross River State University of Technology, Calabar", "ownership": "State"},
+        {"name": "Ibrahim Babangida College of Agriculture, Obubra", "ownership": "State"},
+        {"name": "Cross River State College of Education, akamkpa", "ownership": "State"},
+        {"name": "College of Health Technology, Iboko, Okpoma, Yala", "ownership": "State"},
+        {"name": "Technical college Ugep", "ownership": "State"}
+      ]
+    },
+    {
+      "state": "Delta",
+      "institutions": [
+        {"name": "Federal University of Petroleum Resources, Effurun", "ownership": "Federal"},
+        {"name": "Delta State University (Abraka Campus, Oleh Campus, Asaba Campus)", "ownership": "State"},
+        {"name": "Delta State Polytechnic, Ogwashi-Uku", "ownership": "State"},
+        {"name": "Delta State Polytechnic, Otefe-Oghara", "ownership": "State"},
+        {"name": "Delta State Polytechnic, Ozoro", "ownership": "State"},
+        {"name": "College of Education, Agbor", "ownership": "State"},
+        {"name": "College of Education, Warri", "ownership": "State"},
+        {"name": "Federal College of Education Technical, Asaba", "ownership": "Federal"},
+        {"name": "College of Physical Education, Mosogar", "ownership": "State"},
+        {"name": "School of Health Technology, Ughelli", "ownership": "N/A"},
+        {"name": "Petroleum Training Institute, Effurun", "ownership": "Federal"},
+        {"name": "Western Delta University, Oghara", "ownership": "Private"},
+        {"name": "Novena University, Ogume-Amai", "ownership": "Private"},
+        {"name": "National Open University of Nigeria, Asaba Study Center, Asaba", "ownership": "Federal"},
+        {"name": "Delta State School of Marine Technology, Burutu", "ownership": "State"},
+        {"name": "Nigerian Maritime University, Okerenkoko, Warri", "ownership": "Federal"},
+        {"name": "Conarina School of Maritime & Transport Technology, Oria-Abraka", "ownership": "Private"},
+        {"name": "University of Information and Communication Technology, Agbor", "ownership": "Private"},
+        {"name": "State School of Midwifery, Asaba", "ownership": "State"},
+        {"name": "School of Nursing, Agbor", "ownership": "State"},
+        {"name": "School of Nursing, Warri", "ownership": "State"},
+        {"name": "Baptist School of Nursing", "ownership": "Private"},
+        {"name": "Eku Edwin Clark University", "ownership": "Private"},
+        {"name": "Kiagbodo Eagle Heights University, Omadino", "ownership": "Private"},
+        {"name": "Warri Nigerian Naval School", "ownership": "Federal"},
+        {"name": "Sapele Nigerian Navy Maritime University, Ibusa", "ownership": "Federal"}
+      ]
+    },
+    {
+      "state": "Ebonyi",
+      "institutions": [
+        {"name": "Ebonyi State University, Abakaliki (EBSU)", "ownership": "State"},
+        {"name": "Federal University Ndufu Alike Ikwo (FUNAI)", "ownership": "Federal"},
+        {"name": "Ebonyi State College of Education Ikwo (EBSCOEI)", "ownership": "State"},
+        {"name": "Akanu Ibiam Federal Polytechnic, Unwana", "ownership": "Federal"},
+        {"name": "College of Health Sciences", "ownership": "N/A"},
+        {"name": "Ezzamgbo and Federal College of Agriculture, Ishiagu.", "ownership": "N/A"}
+      ]
+    },
+    {
+      "state": "Enugu",
+      "institutions": [
+        {"name": "University of Nigeria, Nsukka", "ownership": "Federal"},
+        {"name": "Enugu State University of Science & Technology (ESUT)", "ownership": "State"},
+        {"name": "Institute of Management and Technology (IMT)", "ownership": "State"},
+        {"name": "Federal Cooperative College, Oji River (FCCO)", "ownership": "Federal"},
+        {"name": "Enugu State College of Education Technical, Enugu", "ownership": "State"},
+        {"name": "Caritas University, Amorji-Nike", "ownership": "Private"},
+        {"name": "Renaissance University, Ugbawka", "ownership": "Private"},
+        {"name": "Federal School of Dental Technology & Therapy", "ownership": "Federal"},
+        {"name": "College of Immaculate Conception", "ownership": "Private"},
+        {"name": "Our Saviour Institute of Science and Technology, Enugu", "ownership": "Private"},
+        {"name": "the Federal College of Education", "ownership": "Federal"},
+        {"name": "Eha-AmufuCaritas University", "ownership": "Private"}
+      ]
+    },      
+    { 
+        "state" : "Edo",
+        "institutions": [
+            {"name" : "(ICE) Institute of Continuing Education, Auchi", "ownership" : "State"},
+            {"name" : "(MILI) Miracle Invasion Leadership Institute", "ownership" : "Private"},
+            {"name" : "(NICPS) Nigerian Institute Of Computer Science And Professional Studies", "ownership" : "Private"},
+            {"name" : "AAU Ambrose Ali University, Ekpoma", "ownership" : "State"},
+            {"name" : "BEN University Of Benin, Benin", "ownership" : "Federal"},
+            {"name" : "Bendel State University, Ekpoma", "ownership" : "State"},
+            {"name" : "Benin Technical College, Benin City", "ownership" : "State"},
+            {"name" : "BIU Benson Idahosa University, Benin City", "ownership" : "Private"},
+            {"name" : "College of Education Benin", "ownership" : "State"},
+            {"name" : "Edo State Institute of Technology and Management Usen", "ownership" : "State"},
+            {"name" : "Federal Polytechnic Auchi", "ownership" : "Federal"},
+            {"name" : "IGB Igbinedion University, Okada-Benin", "ownership" : "Private"},
+            {"name" : "Lighthouse Polytechnic, Evbuobanosa", "ownership" : "Private"},
+            {"name" : "National Open University Of Nigeria", "ownership" : "Federal"},
+            {"name" : "Seminary of All Saints, Uhiele, Ekpoma ", "ownership" : "Private"},
+            {"name" : "Shaka Polytechnic, Benin City", "ownership" : "Private"},
+            {"name" : "State School of Nursing, Sapele Road, Benin City", "ownership" : "State"},
+            {"name" : "Usen Polytechnic", "ownership" : "Private"},
+            {"name" : "Wellspring University, Benin City", "ownership" : "Private"},
+            {"name" : "World Outreach Bible College", "ownership" : "Private"}
+        ]
+    },
+    {
+        "state" : "Ekiti",
+        "institutions": [
+            {"name" : "Afe Babalola University", "ownership" : "Private"},
+            {"name" : "College of Education,Ikere-Ekiti", "ownership" : "State"},
+            {"name" : "Crown Polytechnic Ado Ekiti", "ownership" : "Private"},
+            {"name" : "Divisional Teacher's Training College, Oye-Ekiti", "ownership" : "State"},
+            {"name" : "Federal Polytechnic, Ado-Ekiti", "ownership" : "Federal"},
+            {"name" : "Federal University Oye Ekiti", "ownership" : "Federal"},
+            {"name" : "Government Technical College, Ado-Ekiti", "ownership" : "State"},
+            {"name" : "His Mercy Computer Institute ", "ownership" : "Private"},
+            {"name" : "School of Nursing", "ownership" : "N/A"},
+            {"name" : "UAD University Of Ado-Ekiti, Ado-Ekiti", "ownership" : "Private"},
+            {"name" : "University Of Science And Technology, Ifaki", "ownership" : "Private"},
+            {"name" : "University of Education, Ikere-Ekiti", "ownership" : "State"},
+            {"name" : "Wolex Polytechnic, Iwoye-Ekiti", "ownership" : "Private"}
+        ]
+    },
+    {
+        "state" : "FCT",
+        "institutions": [
+            {"name" : "African University of Science and Technology", "ownership" : "Private"},
+            {"name" : "Baze University", "ownership" : "Private"},
+            {"name" : "Nigerian Turkish Nile University", "ownership" : "Private"},
+            {"name" : "Nile University of Nigeria", "ownership" : "Private"},
+            {"name" : "Nuhu Bamalli Polytechnic", "ownership" : "Federal"},
+            {"name" : "School of Nursing", "ownership" : "N/A"},
+            {"name" : "University of Abuja", "ownership" : "Federal"},
+            {"name" : "Veritas University", "ownership" : "Private"}        
+        ]
+    },
+    {
+        "state" : "Gombe",
+        "institutions": [
+            {"name" : "Federal College of Education (Technical), Gombe", "ownership" : "Federal"},
+            {"name" : "Federal University Kashere", "ownership" : "Federal"},
+            {"name" : "Gombe State University", "ownership" : "State"},
+            {"name" : "Gombe State College of Health Sciences and Technology, Kaltungo", "ownership" : "State"},
+            {"name" : "Gombe State Polytechnic", "ownership" : "State"},
+            {"name" : "School of Nursing", "ownership" : "N/A"},
+            {"name" : "School of Health Technology, Kaltungo", "ownership" : "N/A"}
+        ]
+    },
+    {
+        "state" : "Imo",
+        "institutions": [
+            {"name" : "Alvan Ikoku College of Education", "ownership" : "State"},
+            {"name" : "Federal Polytechnic, Nekede", "ownership" : "Federal"},
+            {"name" : "Federal University of Technology, Owerri", "ownership" : "Federal"},
+            {"name" : "Imo State Polytechnic, Umuagwo", "ownership" : "State"},
+            {"name" : "Imo State University, Owerri", "ownership" : "State"},
+            {"name" : "Michael Okpara College of Agriculture, Umuagwo", "ownership" : "State"},
+            {"name" : "School of Health Technology, Amaigbo", "ownership" : "N/A"},  
+            {"name" : "Word of Faith Bible Institute", "ownership" : "Private"},
+            {"name" : "African Institute Of Science And Technology", "ownership" : "Private"},            {"name" : "College of Business and Legal Studies", "ownership" : "Private"},
+            {"name" : "College of Health Science and Technology, Amaigbo, Nwangele", "ownership" : "State"},
+            {"name" : "CIP Claretian Institute of Philosophy, Maryland Nekede", "ownership" : "Private"},
+            {"name" : "National Open University of Nigeria", "ownership" : "Federal"},
+            {"name" : "School of Nursing", "ownership" : "N/A"}
+        ]
+    },
+    {
+        "state" : "Jigawa",    
+        "institutions": [
+            {"name" : "Federal University Dutse", "ownership" : "Federal"},
+            {"name" : "Jigawa State College of Education, Gumel", "ownership" : "State"},
+            {"name" : "Jigawa State Polytechnic, Dutse", "ownership" : "State"},
+            {"name" : "Jigawa State College of Islamic and Legal Studies, Ringim", "ownership" : "State"},
+            {"name" : "Jigawa State College of Nursing and Midwifery, Birnin Kudu", "ownership" : "State"},
+            {"name" : "Jigawa State Institute of Information Technology, Kazaure", "ownership" : "State"},
+            {"name" : "Hussaini Adamu Federal Polytechnic Kazaure", "ownership" :"Federal"},
+            {"name" : "informatics Institute of Information Technology, Kazaure", "ownership" : "State"},
+            {"name" : "School of Nursing", "ownership" : "N/A"},
+            {"name" : "Jigawa State College Of Agriculture, Hadejia", "ownership" : "State"}
+        ]
+	
+    }
+  
+]
