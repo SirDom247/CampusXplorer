@@ -1,18 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration</title>
-</head>
-<body>
+{% extends 'base.html' %}
+
+{% block title %}Registration{% endblock %}
+{% block styles %}
+    <!-- Add specific styles for the contact_us page if needed -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='register.css') }}">
+{% endblock %}
+
+{% block content %}
+<section id="Registration">
     <h2>Registration</h2>
     <form method="post" action="/register">
         {{ form.hidden_tag() }}
+        {{ form.first_name.label }} {{ form.first_name() }}
+        {{ form.last_name.label }} {{ form.last_name() }} 
         {{ form.email.label }} {{ form.email() }}
         {{ form.password.label }} {{ form.password() }}
         {{ form.confirm_password.label }} {{ form.confirm_password() }}
         {{ form.submit() }}
     </form>
-</body>
-</html>
+</section>
+{% endblock %}

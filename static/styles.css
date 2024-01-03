@@ -1,0 +1,126 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, ul, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+/* Header Styles */
+#main-header {
+    background-color: #689437;
+    color: #0e0c0cef;
+    display: flex;
+    padding: 20px;
+    /*padding-inline-start: 20px;*/
+}
+  
+/* Float the link section to the right */
+#header-right {
+    float: right;
+}
+
+#main-header nav div a {
+    text-decoration: none;
+    color: #080101;
+    font-weight: bold;
+    font-size: 1.2rem;
+    justify-content: right;
+}
+
+/* Change the background color on mouse-over */
+#main-header nav div a:hover {
+    background-color: #ddd;
+    color: black; 
+}
+
+.logo {
+    text-decoration: none;
+    color: #080101;
+    font-weight: bold;
+    font-size: 1.2rem;
+    justify-content: left;
+}
+
+#main-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Carousel Section Styles */
+#carousel {
+    margin-bottom: 20px;
+}
+
+/* Search Bar Section Styles */
+#search-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#search-form {
+    display: flex;
+}
+
+#search-bar {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px 0 0 3px;
+}
+
+#search-btn {
+    background-color: #689437;
+    color: #080202;
+    border: none;
+    padding: 10px;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+}
+
+/* Search Results Section Styles */
+#search-results {
+    background-color: #8d8282;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #689437;
+    color: #070303;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+    #main-header nav ul {
+        text-align: center;
+    }
+
+    #main-header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    #search-form {
+        flex-direction: column;
+    }
+
+    #search-bar {
+        border-radius: 3px 3px 0 0;
+        margin-bottom: 10px;
+    }
+
+    #search-btn {
+        border-radius: 0 0 3px 3px;
+    }
+}

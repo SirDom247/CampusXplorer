@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}Contact Us{% endblock %}
+
+{% block styles %}
+    <!-- Add specific styles for the contact_us page if needed -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='contact_us.css') }}">
+{% endblock %}
+
+{% block content %}
+  <section id="ContactUs">
+    <h2>Contact Us</h2>
+    <form method="POST" action="">
+        {{ form.hidden_tag() }}
+        {{ form.first_name.label }} {{ form.first_name(size=20) }}<br>
+        {{ form.last_name.label }} {{ form.last_name(size=20) }}<br>
+        {{ form.email.label }} {{ form.email(size=20) }}<br>
+        {{ form.message.label }} {{ form.message(rows=5, cols=50) }}<br>
+        {{ form.submit() }}
+    </form>
+  </section>
+{% endblock %}
+    

@@ -1,33 +1,37 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Campus Explorer</title>
-    <link rel="stylesheet" href="/styles.css">
+    <title>{% block title %}Campus Explorer{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    {% block styles %}{% endblock %}
 </head>
 <body>
     <header id="main-header">
         <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/register">Register</a></li>
-                <li><a href="/login">Login</a></li>
-            </ul>
+            <a href="/" class="logo">CampusXplorer</a>
+            <div id="header-right">
+                <a href="{{ url_for('register') }}">Register</a>
+                <a href="{{ url_for('login') }}">Login</a>
+                <a href="{{ url_for('about') }}">About</a>
+                <a href="{{ url_for('contact_us') }}">Contact Us</a>
+            </div>
         </nav>
     </header>
-
+    
     <div id="main-content">
+        {% block content %}
         <section id="carousel">
             <!-- Add your carousel content here -->
-            <h2>Carousel Section</h2>
+	    <h1>Welcome!</h1>
         </section>
 
         <!-- Search Bar Section -->
         <section id="search-container">
-            <h2>Search</h2>
+            <h4>Explore institutions in your preferred state</h4>
             <form id="search-form">
-                <input type="text" id="search-bar" placeholder="Search...">
+                <input type="text" id="search-bar" placeholder="type state name here..">
                 <button type="button" id="search-btn" onclick="performSearch()">Search</button>
             </form>
         </section>
@@ -38,13 +42,13 @@
             <h2>Search Results</h2>
         </section>
     </div>
-
+    {% endblock %}
     <!-- Footer Section -->
     <footer>
         <p>&copy; 2023 CampusXplorer. All rights reserved.</p>
     </footer>
 
     <!-- Link to JavaScript -->
-    <script src="path/to/your/scripts.js"></script>
+    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
 </body>
 </html>

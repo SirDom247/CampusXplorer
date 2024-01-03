@@ -1,17 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-</head>
-<body>
-    <h2>Login</h2>
-    <form method="post" action="/login">
-        {{ form.hidden_tag() }}
-        {{ form.email.label }} {{ form.email() }}
-        {{ form.password.label }} {{ form.password() }}
-        {{ form.submit() }}
-    </form>
-</body>
-</html>
+<!-- login Form-->
+{% extends 'base.html' %}
+
+{% block title %}Login{% endblock %}
+
+{% block styles %}
+    <!-- Add specific styles for the contact_us page if needed -->
+    <!--link rel="stylesheet" href="{{ url_for('static', filename='contact_us.css') }}"-->
+{% endblock %}
+
+{% block content %}
+    <section id="contact-form">
+        <h2>Login</h2>
+        <form method="POST" action="">
+            {{ form.hidden_tag() }}
+            {{ form.email.label }} {{ form.email(size=20) }}<br>
+            {{ form.password.label }} {{ form.password(size=20) }}<br>
+            {{ form.submit() }}
+        </form>
+    </section>
+{% endblock %}
+
