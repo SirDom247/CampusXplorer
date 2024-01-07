@@ -2,6 +2,7 @@
 function performSearch() {
     // Get the search term from the input field with the id 'search-bar'
     var searchTerm = document.getElementById('search-bar').value;
+    console.log('Performing search for:', searchTerm);
 
     // Make an AJAX request to the Flask backend for search
     fetch('/search', {
@@ -19,6 +20,12 @@ function performSearch() {
     .catch(error => {
         console.error('Error:', error);
     });
+}
+
+function handleKeyPress(event) {
+    if (event.key === 'Enter') {
+        performSearch();
+   }
 }
 
 function displaySearchResults(results) {

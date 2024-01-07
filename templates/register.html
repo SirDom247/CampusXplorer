@@ -1,6 +1,7 @@
 {% extends 'base.html' %}
 
 {% block title %}Registration{% endblock %}
+
 {% block styles %}
     <!-- Add specific styles for the contact_us page if needed -->
     <link rel="stylesheet" href="{{ url_for('static', filename='register.css') }}">
@@ -12,7 +13,8 @@
     <form method="post" action="/register">
         {{ form.hidden_tag() }}
         {{ form.first_name.label }} {{ form.first_name() }}
-        {{ form.last_name.label }} {{ form.last_name() }} 
+        {{ form.last_name.label }} {{ form.last_name() }}
+        {{ form.username.label }} {{ form.username() }}
         {{ form.email.label }} {{ form.email() }}
         {{ form.password.label }} {{ form.password() }}
         {{ form.confirm_password.label }} {{ form.confirm_password() }}
