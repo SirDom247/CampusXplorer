@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}Contact Us{% endblock %}
+
+{% block styles %}
+    <!-- Add specific styles for the contact_us page if needed -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='about.css') }}">
+{% endblock %}
+
+{% block content %}
+   <div id="admin-dashboard-container">
+    <h1>Admin Dashboard</h1>
+    <p>Welcome, {{ current_user.username }}!</p>
+    <h2>User Management</h2>
+    <ul>
+        {% for user in users %}
+            <li>{{ user.username }} - {{ user.is_admin }}</li>
+        {% endfor %}
+    </ul>
+    <a href="{{ url_for('logout') }}">Logout</a>
+</div>
+{% endblock %}

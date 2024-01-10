@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+{% extends 'user_dashboard.html' %}
 
 {% block title %}Registration{% endblock %}
 
@@ -11,6 +11,7 @@
 <section id="Registration">
     <h2>Registration</h2>
     <form method="post" action="/register">
+        {{ form.csrf_token }}
         {{ form.hidden_tag() }}
         {{ form.first_name.label }} {{ form.first_name() }}
         {{ form.last_name.label }} {{ form.last_name() }}

@@ -5,7 +5,7 @@
 {% block styles %}
     <link rel="stylesheet" href="{{ url_for('static', filename='login.css') }}">
 {% endblock %}
-
+{{ form.csrf_token }}
 {% with messages = get_flashed_messages() %}
   {% if messages %}
     <ul class="flashes">

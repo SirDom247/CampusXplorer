@@ -1,0 +1,21 @@
+{% extends 'user_dashboard.html' %}
+
+{% block title %}Contact Us{% endblock %}
+
+{% block styles %}
+    <!-- Add specific styles for the contact_us page if needed -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='about.css') }}">
+{% endblock %}
+
+{% block content %}
+    <div id="admin-login-container">
+        <h2>Admin Login</h2>
+        <form method="POST" action="{{ url_for('admin_login') }}">
+            <label for="admin_username">Username:</label>
+            <input type="text" id="admin_username" name="admin_username" required>
+            <label for="admin_password">Password:</label>
+            <input type="password" id="admin_password" name="admin_password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+{% endblock %}

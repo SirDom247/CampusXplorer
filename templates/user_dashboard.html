@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Campus Explorer{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    {% block styles %}{% endblock %}
+</head>
+<body>
+    <header id="main-header">
+        <nav>
+            <a href="/" class="logo">CampusXplorer</a>
+            <div id="header-right">
+                    <a href="{{ url_for('about') }}">About</a>
+                    <a href="{{ url_for('register') }}">Register</a>
+                    <a href="{{ url_for('contact_us') }}">Contact Us</a>
+                    <a href="{{ url_for('admin_dashboard') }}">Admin</a> 
+                    
+                    {% if session['logged_in'] %}
+                        <a href="{{ url_for('logout') }}">Logout</a>
+                    {% else %}
+                        <a href="{{ url_for('login') }}">Login</a>
+                    {% endif %}
+            </div>
+        <nav>
+    </header>
+    
+ <!-- Flash Messages -->
+{% with messages = get_flashed_messages() %}
+ {% if messages %}
+   <div class="flash-messages">
+     <ul>
+       {% for message in messages %}
+         <li><h5>{{ message }}</h5></li>
+       {% endfor %}
+     </ul>
+   </div>
+ {% endif %}
+{% endwith %}
+
+
+    <div id="main-content">
+        {% block content %}
+        <section id="carousel">
+            <!-- Add your carousel content here -->
+	    <h1>Welcome,!</h1>
+        <h2>Explore institutions in your preferred state</h2>
+        </section>
+
+        <!-- Search Bar Section -->
+        <section id="search-container">
+            <section id="search-container">
+                <form id="search-form" onsubmit="performSearch(); return false;">
+                    <input type="text" id="search-bar" placeholder="type state name here.." onkeypress="return handleKeyPress(event)">
+                    <button type="button" id="search-btn" onclick="performSearch()">Search</button>
+                </form>
+            </section>
+        </section>
+
+        
+        <!-- Display Search Results Section -->
+        <section id="search-results">
+            <!-- Add your search results content here -->
+        </section>
+    </div>
+    {% endblock %}
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 CampusXplorer. All rights reserved.</p>
+    </footer>
+
+    <!-- Link to JavaScript -->
+    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
+</body>
+</html>

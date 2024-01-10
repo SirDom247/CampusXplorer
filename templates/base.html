@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}Campus Explorer{% endblock %}</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
-    {% block styles %}{% endblock %}
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+WyW+BuIRwG0SA6Em78S/hdFCkFvNvH4ikt" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>    
 </head>
 <body>
     <header id="main-header">
@@ -14,64 +15,55 @@
             <div id="header-right">
                     <a href="{{ url_for('about') }}">About</a>
                     <a href="{{ url_for('register') }}">Register</a>
-
                     {% if session['logged_in'] %}
                         <a href="{{ url_for('logout') }}">Logout</a>
                     {% else %}
                         <a href="{{ url_for('login') }}">Login</a>
                     {% endif %}
-
                     <a href="{{ url_for('contact_us') }}">Contact us</a>
+                    <a href="{{ url_for('admin_login') }}">Admin</a>
+                    
             </div>
         <nav>
     </header>
     
- <!-- Flash Messages -->
-{% with messages = get_flashed_messages() %}
- {% if messages %}
-   <div class="flash-messages">
-     <ul>
-       {% for message in messages %}
-         <li><h5>{{ message }}</h5></li>
-       {% endfor %}
-     </ul>
-   </div>
- {% endif %}
-{% endwith %}
+        <!-- Flash Messages -->
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+        <div class="flash-messages">
+            <ul>
+            {% for message in messages %}
+                <li><h5>{{ message }}</h5></li>
+            {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+        {% endwith %}
 
+    <section id="carousel">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+            <!-- Add your carousel slides here -->
+                <div class="carousel-item active">
+                    <img src="{{ url_for('static', filename='image1.jpg') }}" class="d-block w-100" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <div id="main-content">
-        {% block content %}
-        <section id="carousel">
-            <!-- Add your carousel content here -->
-	    <h1>Welcome!</h1>
-        <h2>Explore institutions in your preferred state</h2>
-        </section>
-
-        <!-- Search Bar Section -->
-        <section id="search-container">
-            <section id="search-container">
-                <form id="search-form" onsubmit="performSearch(); return false;">
-                    <input type="text" id="search-bar" placeholder="type state name here.." onkeypress="return handleKeyPress(event)">
-                    <button type="button" id="search-btn" onclick="performSearch()">Search</button>
-                </form>
-            </section>
-        </section>
-
-        
-        <!-- Display Search Results Section -->
-        <section id="search-results">
-            <!-- Add your search results content here -->
-        </section>
+<section>   
+    <div>
+        <p><h1><a href="{{ url_for('register') }}">Register</a> and <a href="{{ url_for('login') }}">Login</a> to explore all tertiary institutions in Nigeria </h1></p>
     </div>
-    {% endblock %}
-
-    <!-- Footer Section -->
+</section>
+ 
     <footer>
         <p>&copy; 2023 CampusXplorer. All rights reserved.</p>
     </footer>
 
-    <!-- Link to JavaScript -->
-    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-GLhlTQ8iK9t9z3YV70ZVmZ6/5aF+JIoLZBT+q3BXdFhUJpWGJG8iFghJqFqJ9zB4" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+WyW+BuIRwG0SA6Em78S/hdFCkFvNvH4ikt" crossorigin="anonymous"></script>
+
 </body>
 </html>
