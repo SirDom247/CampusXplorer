@@ -1,0 +1,42 @@
+/* styles.css */
+.right-banner {
+    background-color: none
+    padding: 0px;
+    width: 600px;
+    position: fixed;
+    top: 120px; /* Adjust top position as needed */
+    right: 0px; /* Align to the right side */
+    bottom: 200px;
+}
+
+.left-banner {
+    background-color: none
+    padding: 0px;
+    width: 600px;
+    position: fixed;
+    top: 120px; /* Adjust top position as needed */
+    left: 0px; /* Align to the right side */
+    bottom: 200px;
+}
+
+#base-text h1 {
+    color: #303072;
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+#base-text h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+

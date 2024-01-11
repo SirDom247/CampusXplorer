@@ -99,14 +99,18 @@ body {
     background-color: #8d8282;
     padding: 90px;
     border-radius: 5px;
+    font-size: larger;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Footer Styles */
 footer {
     text-align: center;
+    position:relative;
     display: block;
-    padding-bottom: 50px;
+    margin: 0;
+    margin-top: 100px;
+    padding-bottom: 20px;
     padding-top: 0px;
     padding-right: 0px;
     padding-left: 0px;
@@ -145,4 +149,6 @@ footer {
     #search-btn {
         border-radius: 0 0 3px 3px;
     }
+
+
 }

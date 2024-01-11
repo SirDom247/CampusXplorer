@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}Campus Explorer{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='base.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+WyW+BuIRwG0SA6Em78S/hdFCkFvNvH4ikt" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>    
@@ -44,19 +45,103 @@
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
             <!-- Add your carousel slides here -->
-                <div class="carousel-item active">
-                    <img src="{{ url_for('static', filename='image1.jpg') }}" class="d-block w-100" alt="">
+                <div class="left-banner">
+                    <img src="{{ url_for('static', filename='image1.jpg') }}" class="d-block w-200" alt="">
+                    
                 </div>
             </div>
         </div>
     </section>
 
-<section>   
-    <div>
-        <p><h1><a href="{{ url_for('register') }}">Register</a> and <a href="{{ url_for('login') }}">Login</a> to explore all tertiary institutions in Nigeria </h1></p>
+
+ 
+<section>
+    <div id="carousel-inner">
+        <div class="carousel-item active">
+            <img src="{{ url_for('static', filename='image2.jpg') }}" class="d-block w-100" alt="">
+        </div>
     </div>
 </section>
- 
+
+
+        <section id="main-content">
+            <img src="{{ url_for('static', filename='image2.jpg') }}" class="d-block w-100" alt="">
+
+            <!-- Right-hand side banner -->
+            <div class="right-banner">
+                <img src="{{ url_for('static', filename='image4.jpg') }}" class="d-block w-300" alt="">
+            </div>
+        </section>
+<section>
+    <div id="carousel-inner">
+        <div class="carousel-item active">
+            <img src="{{ url_for('static', filename='image2.jpg') }}" class="d-block w-100" alt="">
+        </div>
+    </div>
+</section>
+
+<section>
+    <div id="carousel-inner">
+        <div class="carousel-item active">
+            <img src="{{ url_for('static', filename='image2.jpg') }}" class="d-block w-100" alt="">
+        </div>
+    </div>
+</section>
+
+<section>
+    <div id="carousel-inner">
+        <div class="carousel-item active">
+            <img src="{{ url_for('static', filename='image2.jpg') }}" class="d-block w-100" alt="">
+        </div>
+    </div>
+</section>
+
+<section>
+    <div id="carousel-inner">
+        <div class="carousel-item active">
+            <img src="{{ url_for('static', filename='image2.jpg') }}" class="d-block w-100" alt="">
+        </div>
+    </div>
+</section>
+
+<section>
+    <div id="carousel-inner">
+        <div class="carousel-item active">
+            <img src="{{ url_for('static', filename='image2.jpg') }}" class="d-block w-100" alt="">
+        </div>
+    </div>
+</section>
+
+<section>
+    <div id="carousel-inner">
+        <div class="carousel-item active">
+            <img src="{{ url_for('static', filename='image2.jpg') }}" class="d-block w-100" alt="">
+        </div>
+    </div>
+</section>
+<section>
+    <div id="carousel-inner">
+        <div class="carousel-item active">
+            <img src="{{ url_for('static', filename='image2.jpg') }}" class="d-block w-100" alt="">
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+<section>   
+    <div id="base-text">
+        <h1> Your sure guide to choosing a perfect campus</h1>
+        <h2> <a href="{{ url_for('register') }}">Register</a> and <a href="{{ url_for('login') }}">Login</a> to explore all tertiary institutions in Nigeria </h2>
+    </div>  
+</section>
+
     <footer>
         <p>&copy; 2023 CampusXplorer. All rights reserved.</p>
     </footer>
