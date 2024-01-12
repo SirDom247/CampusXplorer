@@ -12,8 +12,9 @@
     <h2>Contact Us</h2>
     <form method="POST" action="">
         {{ form.hidden_tag() }}
-        {{ form.first_name.label }} {{ form.first_name(size=20) }}<br>
-        {{ form.last_name.label }} {{ form.last_name(size=20) }}<br>
+        {{ form.first_name.label }} {{ form.first_name(size=50) }}<br>
+        {{ form.last_name.label }} {{ form.last_name(size=50) }}<br>
+        {{ form.username.label }} {{ form.username(size=50) }}<br>
         {{ form.email.label }} {{ form.email(size=20) }}<br>
         {{ form.message.label }} {{ form.message(rows=5, cols=50) }}<br>
         {{ form.submit() }}

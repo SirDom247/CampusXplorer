@@ -1,6 +1,6 @@
 /* styles.css */
 .right-banner {
-    background-color: none
+    background-color: none;
     padding: 0px;
     width: 600px;
     position: fixed;
@@ -10,7 +10,7 @@
 }
 
 .left-banner {
-    background-color: none
+    background-color: none;
     padding: 0px;
     width: 600px;
     position: fixed;

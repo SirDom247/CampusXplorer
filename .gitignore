@@ -1,27 +1,27 @@
 # .gitignore
 
 # Ignore virtual environment
-#venv/
+venv/
 
 # Ignore environment variable file
-#.env
+.env
 
 # Ignore compiled Python files
-#*.pyc
-#__pycache__/
+*.pyc
+__pycache__/
 
 # Ignore logs and other runtime files
-#logs/
-#*.log
+logs/
+*.log
 
 # Ignore IDE-specific files
-#.vscode/
-#.idea/
+.vscode/
+.idea/
 
 # Ignore package files
-#*.pyc
-#*.pyo
-#*.pyd
+*.pyc
+*.pyo
+*.pyd
 
 # Ignore database files
-#institutions_data.json
+institutions_data.json
